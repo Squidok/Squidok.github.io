@@ -1,7 +1,14 @@
 body {
   margin: 0;
+  line-height: 1.5;
+  color: lavender;
+  background-color: #424949;
 }
 
+.texte_gras {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 .banniere {
 
@@ -10,8 +17,11 @@ body {
   color: white;
   font-size: 30px;
   width:100%;
-  background-image: url(image/test_banniere.jpg);
-  background-size:auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*background-image: url(image/test_banniere.jpg);
+  background-size:auto;*/
+
 }
 
 .banniere_img {
@@ -34,23 +44,23 @@ body {
 .button_Dessin{
   background-color: #6ab213;
   border: none;
-  padding: 15px 32px;
+  padding: 15px;
 }
 
 .button_Projet{
   background-color: #00decd;
   border: none;
-  padding: 15px 32px;
+  padding: 15px;
 }
 .button_Recherche{
   background-color: #b0db00;
   border: none;
-  padding: 15px 32px;
+  padding: 15px;
 }
 .button_Concept{
   background-color: #de0000;
   border: none;
-  padding: 15px 32px;
+  padding: 15px;
 }
 
 .dropdown {

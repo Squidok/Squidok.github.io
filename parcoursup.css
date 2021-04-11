@@ -1,8 +1,8 @@
 body {
   margin: 0;
   line-height: 1.5;
-  color: lavender;
-  background-color: #424949;
+  /*color: lavender;
+  background-color: #424949;*/
 }
 
 .texte_gras {
@@ -37,8 +37,9 @@ body {
 }
 
 .menuDeroulant{
-  background-color: #a5a5a5;
+  background-color: black;
   text-align: center;
+  padding: 5px;
 }
 
 .button_Dessin{
@@ -63,6 +64,9 @@ body {
   padding: 15px;
 }
 
+.axes{
+  padding: 15px;
+}
 .dropdown {
   position: relative;
   display: inline-block;
